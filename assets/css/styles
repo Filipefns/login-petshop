@@ -113,7 +113,7 @@ form a {
     color: var(--button-color);
 }
 
-form a:hover{
+.form-a:hover, .cadastro a:hover{
     color: #000000;
 }
 
@@ -132,6 +132,10 @@ form a:hover{
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.button-entrar:hover{
+    background-color: #1ca5d3;
 }
 
 .button-google-entrar{
@@ -156,4 +160,15 @@ form a:hover{
 
 .button-google-entrar img{
     width: 40px;
+}
+
+.button-google-entrar:hover{
+    opacity: 80%;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
 }
